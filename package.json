@@ -31,7 +31,6 @@
     "compression": "^1.7.3",
     "dayjs": "^1.11.2",
     "express": "^4.16.4",
-    "heroku": "^7.60.2",
     "history": "^4.9.0",
     "js-interpreter": "^2.3.1",
     "jsonwebtoken": "^8.5.1",
