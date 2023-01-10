@@ -26,4 +26,4 @@
 * `npm run start:dev`
 * Once your server is up and running, check out http://localhost:8080/ and enjoy! 🦝
 
-
+<a href=https://github.com/pigeon-programmers/creature-coders-web>Creature Coders</a> originally created and designed by: Hannah Sommer, Caitlin Sherman, Angel Robish, & Kendall Perry.
