@@ -1,25 +1,16 @@
 const Sequelize = require('sequelize')
-const pkg = require('../../package.json')
 
-const databaseName = pkg.name + (process.env.NODE_ENV === 'test' ? '-test' : '')
+const user = process.env.user
+const host = process.env.host
+const database = process.env.database
+const password = process.env.password
+const port = process.env.port
 
-const config = {
+const db = new Sequelize(database, user, password, {
+  host,
+  port,
+  dialect: 'postgres',
   logging: false
-};
+})
 
-if(process.env.LOGGING === 'true'){
-  delete config.logging
-}
-
-//https://stackoverflow.com/questions/61254851/heroku-postgres-sequelize-no-pg-hba-conf-entry-for-host
-if(process.env.DATABASE_URL){
-  config.dialectOptions = {
-    ssl: {
-      rejectUnauthorized: false
-    }
-  };
-}
-
-const db = new Sequelize(
-  process.env.DATABASE_URL || `postgres://localhost:5432/${databaseName}`, config)
 module.exports = db
