@@ -37,6 +37,7 @@
     "morgan": "^1.9.1",
     "pg": "^8.5.1",
     "react-blockly": "^7.0.0-alpha.2",
+    "selenium-webdriver": "^4.7.1",
     "sequelize": "^6.3.5",
     "styled-components": "^5.3.5"
   },

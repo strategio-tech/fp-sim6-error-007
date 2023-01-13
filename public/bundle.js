@@ -5231,7 +5231,9 @@ const Home = props => {
     src: "https://creature-coders.s3.amazonaws.com/bangSmall-03.svg"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SmallBang4, {
     src: "https://creature-coders.s3.amazonaws.com/bangSmall-04.svg"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, null, !mustLogIn ? 'Creature Coders' : 'Want to keep going?'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SubTitle, null, !mustLogIn ? 'Learn to code with garbage animals' : 'Log in or sign up to see more levels!'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ButtonContainer, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    id: "title"
+  }, !mustLogIn ? 'Creature Coders' : 'Want to keep going?'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SubTitle, null, !mustLogIn ? 'Learn to code with garbage animals' : 'Log in or sign up to see more levels!'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ButtonContainer, {
     className: "button-cont"
   }, !mustLogIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
     to: "/map"
@@ -11772,6 +11774,19 @@ exports.typeOf = typeOf;
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js");
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/isarray/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/isarray/index.js ***!
+  \***************************************/
+/***/ ((module) => {
+
+module.exports = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
 
 
 /***/ }),
@@ -48203,26 +48218,13 @@ if (true) {
 
 /***/ }),
 
-/***/ "./node_modules/react-router/node_modules/isarray/index.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/react-router/node_modules/isarray/index.js ***!
-  \*****************************************************************/
-/***/ ((module) => {
-
-module.exports = Array.isArray || function (arr) {
-  return Object.prototype.toString.call(arr) == '[object Array]';
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/react-router/node_modules/path-to-regexp/index.js":
 /*!************************************************************************!*\
   !*** ./node_modules/react-router/node_modules/path-to-regexp/index.js ***!
   \************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var isarray = __webpack_require__(/*! isarray */ "./node_modules/react-router/node_modules/isarray/index.js")
+var isarray = __webpack_require__(/*! isarray */ "./node_modules/isarray/index.js")
 
 /**
  * Expose `pathToRegexp`.
