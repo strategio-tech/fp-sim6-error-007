@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '16.x'
       - name: Install Dependencies 
-        run: npm ci
+        run: npm install 
       # - name: Run the tests
         # run: node tests/titleTest.js
       - run: echo "🍏 This job's status is ${{ job.status }}."
