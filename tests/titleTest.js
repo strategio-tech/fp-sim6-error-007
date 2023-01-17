@@ -3,9 +3,9 @@ const chrome = require('selenium-webdriver/chrome');
 
 async function titleTest() {
     let driver = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(new chrome.Options().headless())
-    .build();
+    .forBrowser("chrome").build();
+    //.setChromeOptions(new chrome.Options().headless())
+    //.build();
     try {
         await driver.get('http://localhost:8080');
         const actualTitle = await driver.getTitle();
