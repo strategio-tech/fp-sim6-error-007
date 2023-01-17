@@ -12,9 +12,9 @@ async function titleTest() {
     .setChromeOptions(new chrome.Options().headless().windowSize(screen))
     .build();
     try {
-        await driver.get('http://localhost:8080');
+        await driver.get('https://www.google.com/');
         const actualTitle = await driver.getTitle();
-        const expectedTitle = "Creature Coders";
+        const expectedTitle = "Google";
         
         if(actualTitle == expectedTitle) {
             console.log("Title matched");
