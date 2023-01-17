@@ -5231,7 +5231,9 @@ const Home = props => {
     src: "https://creature-coders.s3.amazonaws.com/bangSmall-03.svg"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SmallBang4, {
     src: "https://creature-coders.s3.amazonaws.com/bangSmall-04.svg"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, null, !mustLogIn ? 'Creature Coders' : 'Want to keep going?'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SubTitle, null, !mustLogIn ? 'Learn to code with garbage animals' : 'Log in or sign up to see more levels!'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ButtonContainer, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Title, {
+    id: "title"
+  }, !mustLogIn ? 'Creature Coders' : 'Want to keep going?'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SubTitle, null, !mustLogIn ? 'Learn to code with garbage animals' : 'Log in or sign up to see more levels!'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ButtonContainer, {
     className: "button-cont"
   }, !mustLogIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
     to: "/map"
