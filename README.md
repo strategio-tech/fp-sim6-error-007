@@ -98,7 +98,7 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 
 ## Web Deployment
 
-![CI/CD](https://user-images.githubusercontent.com/98194118/213311296-4b5d92f4-703d-4a29-9bfc-6efdd5d0f3e4.png)
+![CI/CD Diagram](https://user-images.githubusercontent.com/98194118/213314490-5e12c38c-6363-432e-9fcd-2efcab5e451c.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </div>
