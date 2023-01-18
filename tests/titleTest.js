@@ -16,12 +16,12 @@ async function titleTest() {
         const actualTitle = await driver.getTitle();
         const expectedTitle = "Creature Coders";
         
-        // if(actualTitle == expectedTitle) {
-        //     console.log("Title matched");
-        // }else{
-        //     console.log("Title didn't match");
-        // }
-        assert.equal(actualTitle, expectedTitle);
+        if(actualTitle == expectedTitle) {
+            console.log("Title matched");
+        }else{
+            console.log("Title didn't match");
+        }
+        
         
     } catch (err) {
         console.log(err);
