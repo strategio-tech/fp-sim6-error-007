@@ -1,7 +1,6 @@
 # Creature Coders
 
-![pigeon](https://user-images.githubusercontent.com/98194118/169086011-39d44ddd-4fdf-42b5-b50f-f235e5d2152f.png)
-
+<img width="1402" alt="Creature Coders" src="https://user-images.githubusercontent.com/98194118/213310156-1f83ef3b-f81d-4345-9843-77371d1f9538.png">
 
 ## Table of Contents
 
@@ -98,5 +97,7 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 * `npm run seed`
 * `npm run start:dev`
 * Once your server is up and running, check out http://localhost:8080/ and enjoy! 🦝
+
+![pigeon](https://user-images.githubusercontent.com/98194118/169086011-39d44ddd-4fdf-42b5-b50f-f235e5d2152f.png)
 
 <a href=https://github.com/pigeon-programmers/creature-coders-web>Creature Coders</a> originally created and designed by: Hannah Sommer, Caitlin Sherman, Angel Robish, & Kendall Perry.
