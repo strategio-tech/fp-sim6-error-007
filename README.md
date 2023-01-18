@@ -106,6 +106,7 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 <!-- TEAM ERROR 007 AUTHORS -->
 
 <div id="authors">
+
 ## Team Error 007 Authors
 
 - [@JulianMartos](https://github.com/JulianMartos)
