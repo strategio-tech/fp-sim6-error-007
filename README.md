@@ -28,6 +28,8 @@
 
 To play the game, each user picks a pet avatar and traverses the levels on our subway map inspired by NYC. The beginning games focus on logic and basic concepts, and the later games bring in some javascript syntax and code. After you win each game, you’re rewarded with points and PidgeCoins, which you can use to buy hats in the hat shop.</p>
 
+</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
