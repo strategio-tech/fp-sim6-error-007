@@ -12,15 +12,17 @@ async function titleTest() {
     .setChromeOptions(new chrome.Options().headless().windowSize(screen))
     .build();
     try {
-        await driver.get('http://localhost:3000/');
+        await driver.get('http://localhost:8080/');
         const actualTitle = await driver.getTitle();
         const expectedTitle = "Creature Coders";
         
-        if(actualTitle == expectedTitle) {
-            console.log("Title matched");
-        }else{
-            console.log("Title didn't match");
-        }
+        // if(actualTitle == expectedTitle) {
+        //     console.log("Title matched");
+        // }else{
+        //     console.log("Title didn't match");
+        // }
+        assert.equal(actualTitle, expectedTitle);
+        
     } catch (err) {
         console.log(err);
     } finally {
