@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-<div align="center">
+<div id="about-the-project" align="center">
 
 <p>Creature Coders is a game designed for ages 10+ that will allow you to traverse the NYC subway system as a local New York City animal, while learning how to code in a fun and intuitive way. 
 
@@ -73,11 +73,15 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 
 <!-- ARCHITECTURE DIAGRAM -->
 
+<div id="architecture-diagram">
+
 ## Architecture Diagram
 
 ![Architecture Diagram](https://user-images.githubusercontent.com/98194118/213309568-e53cb4da-2a02-485d-8ec1-4b4a70084c2a.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+</div>
 
 
 **Log in as a seeded user:**
