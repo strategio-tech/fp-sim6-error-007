@@ -16,8 +16,8 @@
     </li>
     <li><a href="#local-installation">Local Installation</a></li>
     <li><a href="#web-deployment">Web Deployment</a></li> 
-	<li><a href="#acknowledgments">Acknowledgments</a></li>
 	<li><a href="#authors">Team Error 007 Authors</a></li>
+	<li><a href="#credits">Credits</a></li>
   </ol>
 
 <!-- ABOUT THE PROJECT -->
@@ -83,6 +83,59 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 
 </div>
 
+<!-- LOCAL INSTALLATION -->
+
+<div id="local-installation">
+
+## Local Installation
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
+
+<!-- WEB DEPLOYMENT -->
+
+<div id="web-deployment">
+
+## Web Deployment
+
+![CI/CD](https://user-images.githubusercontent.com/98194118/213311296-4b5d92f4-703d-4a29-9bfc-6efdd5d0f3e4.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
+
+<!-- TEAM ERROR 007 AUTHORS -->
+
+<div id="authors">
+## Team Error 007 Authors
+
+- [@JulianMartos](https://github.com/JulianMartos)
+- [@Eli-Meyer42](https://github.com/Eli-Meyer42)
+- [@kendallperry](https://github.com/kendallperry)
+- [@peterTorres7](https://github.com/peterTorres7)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
+
+<!-- CREDITS -->
+
+<div id="credits">
+
+## Creature Coders Credits
+
+![pigeon](https://user-images.githubusercontent.com/98194118/169086011-39d44ddd-4fdf-42b5-b50f-f235e5d2152f.png)
+
+Creature coders was originally created, designed and developed by:
+
+- [@sommerh](https://github.com/sommerh)
+- [@kendallperry](https://github.com/kendallperry)
+- [@AngelRobish](https://github.com/AngelRobish)
+- [@CaitlinPSherman](https://github.com/CaitlinPSherman)
+
+Check out the original <a href=https://github.com/pigeon-programmers/creature-coders-web>Creature Coders Repo</a>.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
+
 
 **Log in as a seeded user:**
 1.  To log in as a registered user, you can use username: `Grace` , password: `123` for access to all games and levels. 
@@ -103,7 +156,4 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 * `npm run seed`
 * `npm run start:dev`
 * Once your server is up and running, check out http://localhost:8080/ and enjoy! 🦝
-
-![pigeon](https://user-images.githubusercontent.com/98194118/169086011-39d44ddd-4fdf-42b5-b50f-f235e5d2152f.png)
-
-<a href=https://github.com/pigeon-programmers/creature-coders-web>Creature Coders</a> originally created and designed by: Hannah Sommer, Caitlin Sherman, Angel Robish, & Kendall Perry.
+ 
