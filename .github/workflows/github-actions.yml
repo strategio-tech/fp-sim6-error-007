@@ -24,7 +24,7 @@ jobs:
       - name: Install Dependencies 
         run: npm install 
       - name: Start testing local server
-        run: npm run start:dev
+        run: npm run start &
       - name: Run the tests
         run: node tests/titleTest.js
       - run: echo "🍏 This job's status is ${{ job.status }}."
