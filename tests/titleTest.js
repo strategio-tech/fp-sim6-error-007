@@ -12,7 +12,7 @@ async function titleTest() {
     .setChromeOptions(new chrome.Options().headless().windowSize(screen))
     .build();
     try {
-        await driver.get('http://54.144.107.113/');
+        await driver.get('http://localhost:3000/');
         const actualTitle = await driver.getTitle();
         const expectedTitle = "Creature Coders";
         
