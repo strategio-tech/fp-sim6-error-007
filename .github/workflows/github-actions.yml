@@ -3,6 +3,7 @@ run-name: ${{ github.actor }}
 on: [push]
 jobs:
   ci:
+    name: Integration
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -51,7 +52,7 @@ jobs:
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: Install Dependencies 
         run: npm install 
