@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+body {
+  font-family: sans-serif;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blockly-workspace {
+  height: 50vh;
+  width: 80vw;
+}
+
+@media (min-width: 1025px) {
+  .blockly-workspace {
+    height: 35vh;
+    width: 820px;
+  }
+}
+@media (max-width: 500px) {
+  .blockly-workspace {
+    height: 40vh;
+    width: 100vw;
+  }
+}
+
+.test {
+  font-weight: bold
+}
