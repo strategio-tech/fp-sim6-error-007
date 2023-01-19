@@ -45,6 +45,8 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
   - Amazon ECR (Elastic Container Registry)
   - Amazon ECS (Elastic Container Services)
   - AWS Cloud Watch
+- [Docker](https://www.docker.com/)
+- [GitHub Actions](https://docs.github.com/en/actions)
 - [PostgreSQL Instance](https://aws.amazon.com/rds/)
   - Amazon RDS (Relational Database Service)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -61,6 +63,7 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 - [PostgreSQL](https://www.postgresql.org/)
 - [Sequelize](https://sequelize.org/)
 - [npm](https://www.npmjs.com/)
+- [Selenium](https://www.selenium.dev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
