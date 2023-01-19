@@ -66,7 +66,21 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 
 ## Features
 
-- User can log in, sign up, or start playing first two games as a trial. 
+- User(s) can log in, sign up, or start playing first two games as a trial. 
+
+- Logged in user can customize their pet, change the pet type and pet name. 
+
+- User(s) can progress through games and levels, while earning points and PidgeCoin.
+
+- User(s) can buy fun hats for their pet in the Hat Shop. 
+
+- User(s) can try on different hats in their Profile. 
+
+- Streak counter if you play the game consecutive days in a row. 
+
+- Leaderboard to display top all-time scores ordered by points. 
+
+- FAQ to answer a few questions that might come up during the game. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
