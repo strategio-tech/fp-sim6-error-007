@@ -92,11 +92,13 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 **Steps to run Creature Coders locally!**
 
 * Clone our repo into a new directory. 
-* `npm install`
 * Create postgres database `creature-coders` 
-* `npm run seed`
-* `npm run start:dev`
-* Once your server is up and running, check out http://localhost:8080/ and enjoy! 🦝
+* Fill the .env file with the credentials for the database
+* `docker build . -t creature-coders`
+* `docker run -p 8080:3000 -d creature-coders`
+* If you need to seed the database run:
+* `docker exec -it creature-coders npm run seed`
+* Once your server is up and running, check out http://localhost:3000/ and enjoy! 🦝
 	
 **Log in as a seeded user:**
 1.  To log in as a registered user, you can use username: `Grace` , password: `123` for access to all games and levels. 
@@ -118,7 +120,28 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 ## Web Deployment
 
 ![CI/CD Diagram](https://user-images.githubusercontent.com/98194118/213314490-5e12c38c-6363-432e-9fcd-2efcab5e451c.png)
+	
+To set up your own CI/CD pipeline, you will need to follow these general steps:
 
+1 - Install the dependencies:
+  * Docker
+  * Git
+  * NPM
+  * Node 
+2 - Fork this repository
+3 - Create an ECS cluster and task definition: This is where you define the containerized application and its dependencies.
+    * ECS cluster with networking only
+    * Task definition of FARGATE type
+4 - Set up this credentials on github secrets:
+  * AWS_ACCESS_KEY_ID
+  * AWS_SECRET_ACCESS_KEY
+  * AWS_REGION
+  * ECR_REPOSITORY_NAME
+  * ECS_CLUSTER
+  * TASK_DEF_NAME
+4 - Push the code into the main branch
+	
+	
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </div>
 
