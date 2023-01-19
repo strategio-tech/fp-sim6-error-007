@@ -123,24 +123,35 @@ To play the game, each user picks a pet avatar and traverses the levels on our s
 	
 To set up your own CI/CD pipeline, you will need to follow these general steps:
 
-1 - Install the dependencies:
-  * Docker
-  * Git
-  * NPM
-  * Node 
-2 - Fork this repository
-3 - Create an ECS cluster and task definition: This is where you define the containerized application and its dependencies.
-    * ECS cluster with networking only
-    * Task definition of FARGATE type
-4 - Set up this credentials on github secrets:
-  * AWS_ACCESS_KEY_ID
-  * AWS_SECRET_ACCESS_KEY
-  * AWS_REGION
-  * ECR_REPOSITORY_NAME
-  * ECS_CLUSTER
-  * TASK_DEF_NAME
-4 - Push the code into the main branch
-	
+<ol>
+    <li>Install the dependencies:
+        <ul>
+            <li>* Docker</li>
+            <li>* Git</li>
+            <li>* NPM</li>
+            <li>* Node</li>
+        </ul>
+    </li>
+    <li>Fork this repository.</li>
+    <li>Create an ECS cluster and task definition: This is where you define the containerized application and its
+        dependencies.
+        <ul>
+            <li>ECS cluster with networking only</li>
+            <li>Task definition of FARGATE type</li>
+        </ul>
+    </li>
+    <li>Set up this credentials on github secrets:
+        <ul>
+            <li>AWS_ACCESS_KEY_ID</li>
+            <li>AWS_SECRET_ACCESS_KEY</li>
+            <li>AWS_REGION</li>
+            <li>ECR_REPOSITORY_NAME</li>
+            <li>ECS_CLUSTER</li>
+            <li>TASK_DEF_NAME</li>
+        </ul>
+    </li>
+    <li>Push the code into the main branch</li>
+</ol>
 	
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </div>
