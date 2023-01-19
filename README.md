@@ -126,10 +126,10 @@ To set up your own CI/CD pipeline, you will need to follow these general steps:
 <ol>
     <li>Install the dependencies:
         <ul>
-            <li>* Docker</li>
-            <li>* Git</li>
-            <li>* NPM</li>
-            <li>* Node</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>NPM</li>
+            <li>Node</li>
         </ul>
     </li>
     <li>Fork this repository.</li>
